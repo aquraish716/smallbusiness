@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +26,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.nav-list-item {
+  margin: auto 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+
+.icon {
+  font-size: medium !important;
+}
+
+.icon:hover {
+  cursor: pointer
+}
+
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 50%;
+}
+
+.add-business {
+  background: #4caf50 !important;
+  color: white !important;
 }
